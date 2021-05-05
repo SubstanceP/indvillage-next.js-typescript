@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
+const logo = require('../../images/logo.jpg')
 
 export default class NavBar extends React.Component {
     render() {
@@ -7,7 +8,7 @@ export default class NavBar extends React.Component {
             <nav className="iv-nav">
               <div className="nav-wrapper">
               <a href="#" className="brand-logo">
-                <img className="nav-item" src={"../../images/logo.jpg"} alt="Independance Village" />
+                <img alt={''} src={logo} />
               </a>
               <ul id="nav-mobile" className="right hide-on-med-and-down">
                 <li><a className="nav-item" href="sass.html">Services</a></li>

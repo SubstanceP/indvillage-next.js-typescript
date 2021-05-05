@@ -1,69 +1,63 @@
-import { Dialog, Grid } from '@material-ui/core'
+import {Button, Dialog} from '@material-ui/core'
+import DialogActions from '@material-ui/core/DialogActions'
+import DialogContent from '@material-ui/core/DialogContent'
+import DialogTitle from '@material-ui/core/DialogTitle'
+import Typography from '@material-ui/core/Typography'
 import * as React from 'react'
-import { Button } from '@material-ui/core'
-import DialogTitle from '@material-ui/core/DialogTitle';
-import DialogContent from '@material-ui/core/DialogContent';
-import DialogActions from '@material-ui/core/DialogActions';
-import Typography from '@material-ui/core/Typography';
 
+const image = require('../../photos/pic1.jpg')
 
-// ~~~AATP~~~~
-interface CardProps {
-  post: any // this is some big object getting sent down from CardContainer
-  id: string
+interface cardContent {
+  id: number
+  title: string
+  description: string
 }
+
+interface CardProps {
+  cardContent: cardContent
+}
+
 interface CardState {
   modalOpen: boolean
 }
 
 // Functional Component for Card, instantiating prop and state variables
-  const Card = (props: CardProps, state: CardState) => {
-  //modalOpen refers to state while setModalOpen is 
+const Card = (props: CardProps, state: CardState) => {
   const [modalOpen, setModalOpen] = React.useState(false)
-  //
-  const openModal = (e: any) => {
+  const openModal = () => {
     console.log('opening modal')
     setModalOpen(true)
   }
   const closeModal = () => {
     setModalOpen(false)
   }
+
+  const {cardContent} = props
+
   return (
-    <div className="col s4" id={props.id}> 
+    <div className="col s4" id={cardContent.id.toString()}>
       <div className="card" id="test">
         <div className="card-image" onClick={openModal}>
-          {props.post._embedded['wp:featuredmedia'] ? (
-            // TODO: Fix alt
-            <img alt={props.post.title.rendered} src={props.post._embedded['wp:featuredmedia'][0].source_url} />
-          ) : (
-            ''
-          )}
+          <img alt={''} src={image} />
         </div>
-        <div className="card-title">
-        {props.post.title.rendered}
-        </div>
-        <div
-          className="card-content"
-          dangerouslySetInnerHTML={{__html: props.post.excerpt.rendered}}></div>
+        <div className="card-title">{cardContent.title}</div>
+        <div className="card-content" dangerouslySetInnerHTML={{__html: ''}}></div>
         <div className="card-action">
           <Button className="card-button" variant="outlined" onClick={openModal}>
-            {props.post.title.rendered}
+            {'more'}
           </Button>
-      <Dialog onClose={closeModal} maxWidth={'lg'} open={modalOpen}>
-        <DialogTitle>
-        {props.post.title.rendered}
-        </DialogTitle>
-        <DialogContent dividers>
-          <Typography variant="h6">
-          {props.post.content.rendered}
-          </Typography>
-        </DialogContent>
-        <DialogActions>
-          <Button autoFocus onClick={closeModal} color="primary">
-            Close
-          </Button>
-        </DialogActions>
-      </Dialog>
+          <Dialog onClose={closeModal} maxWidth={'lg'} open={modalOpen}>
+            <DialogTitle>{cardContent.title}</DialogTitle>
+            <DialogContent dividers>
+              <img alt={''} src={image} />
+              <Typography variant="h6">{cardContent.description}</Typography>
+            </DialogContent>
+            <DialogActions>
+              <Button autoFocus onClick={closeModal} color="primary">
+                Close
+              </Button>
+            </DialogActions>
+          </Dialog>
         </div>
       </div>
     </div>
