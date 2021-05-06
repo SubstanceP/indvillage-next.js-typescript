@@ -1,5 +1,4 @@
 import React from 'react'
-
 import cardContents from '../../config/cardContent.json'
 import Card from './Card'
 
