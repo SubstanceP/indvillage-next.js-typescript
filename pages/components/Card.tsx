@@ -5,13 +5,7 @@ import DialogTitle from '@material-ui/core/DialogTitle'
 import Typography from '@material-ui/core/Typography'
 import * as React from 'react'
 
-const image1 = require('../../photos/pic1.jpg')
-const image2 = require('../../photos/pic1.jpg')
-const image3 = require('../../photos/pic1.jpg')
-const image4 = require('../../photos/pic1.jpg')
-const image5 = require('../../photos/pic1.jpg')
-const image6 = require('../../photos/pic1.jpg')
-
+import * as images from '../../photos'
 
 interface cardContent {
   id: number
@@ -28,6 +22,10 @@ interface CardState {
   modalOpen: boolean
 }
 
+const getPhoto = (photo: string) => {
+  return (images as any)[photo]
+}
+
 // Functional Component for Card, instantiating prop and state variables
 const Card = (props: CardProps, state: CardState) => {
   const [modalOpen, setModalOpen] = React.useState(false)
@@ -41,11 +39,13 @@ const Card = (props: CardProps, state: CardState) => {
 
   const {cardContent} = props
 
+  const img = (images as any)[props.cardContent.imageURL]
+
   return (
     <div className="col s4" id={cardContent.id.toString()}>
       <div className="card" id="test">
         <div className="card-image" onClick={openModal}>
-          <img alt={''} src={require(`../../photos${cardContent.imageURL}`).default} />
+          <img alt={''} src={img} />
         </div>
         <div className="card-title">{cardContent.title}</div>
         <div className="card-content" dangerouslySetInnerHTML={{__html: ''}}></div>
@@ -56,7 +56,7 @@ const Card = (props: CardProps, state: CardState) => {
           <Dialog onClose={closeModal} maxWidth={'lg'} open={modalOpen}>
             <DialogTitle>{cardContent.title}</DialogTitle>
             <DialogContent dividers>
-              <img alt={''} src={image1} />
+              <img alt={''} src={img} />
               <Typography variant="h6">{cardContent.description}</Typography>
             </DialogContent>
             <DialogActions>
