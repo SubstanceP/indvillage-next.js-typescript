@@ -5,12 +5,19 @@ import DialogTitle from '@material-ui/core/DialogTitle'
 import Typography from '@material-ui/core/Typography'
 import * as React from 'react'
 
-const image = require('../../photos/pic1.jpg')
+const image1 = require('../../photos/pic1.jpg')
+const image2 = require('../../photos/pic1.jpg')
+const image3 = require('../../photos/pic1.jpg')
+const image4 = require('../../photos/pic1.jpg')
+const image5 = require('../../photos/pic1.jpg')
+const image6 = require('../../photos/pic1.jpg')
+
 
 interface cardContent {
   id: number
   title: string
   description: string
+  imageURL: string
 }
 
 interface CardProps {
@@ -38,7 +45,7 @@ const Card = (props: CardProps, state: CardState) => {
     <div className="col s4" id={cardContent.id.toString()}>
       <div className="card" id="test">
         <div className="card-image" onClick={openModal}>
-          <img alt={''} src={image} />
+          <img alt={''} src={require(`../../photos${cardContent.imageURL}`).default} />
         </div>
         <div className="card-title">{cardContent.title}</div>
         <div className="card-content" dangerouslySetInnerHTML={{__html: ''}}></div>
@@ -49,7 +56,7 @@ const Card = (props: CardProps, state: CardState) => {
           <Dialog onClose={closeModal} maxWidth={'lg'} open={modalOpen}>
             <DialogTitle>{cardContent.title}</DialogTitle>
             <DialogContent dividers>
-              <img alt={''} src={image} />
+              <img alt={''} src={image1} />
               <Typography variant="h6">{cardContent.description}</Typography>
             </DialogContent>
             <DialogActions>

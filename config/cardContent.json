@@ -1,92 +1,38 @@
 [
   {
     "id": 0,
-    "title": "card",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc suscipit ut dolor non ultrices. Fusce lacus magna, efficitur non imperdiet vel, accumsan sit amet quam. Fusce tincidunt metus purus, ac mollis odio bibendum a. Phasellus lacinia venenatis dolor, vel aliquet eros lacinia sed. Cras tortor ipsum, condimentum eu purus quis, feugiat porttitor dui. Duis id pulvinar diam. Donec vel velit at massa iaculis iaculis sit amet ac nibh. Sed ac augue mollis, ultrices tellus ut, porta lectus. Nulla ac feugiat libero. Nullam accumsan eu libero eu consectetur. Aliquam erat volutpat. Cras eget ipsum enim. Maecenas aliquet nisi at arcu iaculis, id hendrerit dui viverra."
+    "title": "Family",
+    "description": "Welcome to our family of award winning, privately owned, senior living communities.  For us, serving seniors is not just a business, it’s a family passion. It is about generational service, commitment, and our family caring for other families as they and their loved ones navigate the changes and challenges of aging. Since 1974, we have created safe, secure senior communities filled with beautiful spaces, warm laughter, and compassionate, knowledgeable staff.  We are dedicated to meeting the needs and exceeding the expectations of those who trust us. Our goal is to bring the highest level of satisfaction and independence to our residents while delivering confidence and comfort to their caring family. Whether you are looking for Independent Living, Independent Living with an assist, or if you have reached a point where additional services simply provide you the peace of mind you’ve earned, Independence Village has everything you need! Be assured, although we possess endless experience, only your experience matters. Come see the difference FAMILY makes ~ We offer what corporations simply cannot: LIFETIME RATES and NO BUY-IN.  Thank you for considering us for your next home ~ The Tuthill Family",
+    "imageURL": "/Family.jpg"
   },
   {
     "id": 1,
-    "title": "card",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc suscipit ut dolor non ultrices. Fusce lacus magna, efficitur non imperdiet vel, accumsan sit amet quam. Fusce tincidunt metus purus, ac mollis odio bibendum a. Phasellus lacinia venenatis dolor, vel aliquet eros lacinia sed. Cras tortor ipsum, condimentum eu purus quis, feugiat porttitor dui. Duis id pulvinar diam. Donec vel velit at massa iaculis iaculis sit amet ac nibh. Sed ac augue mollis, ultrices tellus ut, porta lectus. Nulla ac feugiat libero. Nullam accumsan eu libero eu consectetur. Aliquam erat volutpat. Cras eget ipsum enim. Maecenas aliquet nisi at arcu iaculis, id hendrerit dui viverra."
-  },
+    "title": "Wellness",
+    "description": "We recognize the natural course of aging will likely involve changes to your abilities and needs, and we have solutions for that.  Our ideas allow you to choose and manage your care and health.CUSTOMIZED CARE: Our care partners, located in our Wellness Center, mirror our own commitment to seniors and your care needs are their sole focus. Sit down with them. Share your thoughts. And let them tailor a service plan specific to your needs. Whether it’s dressing assistance in the morning, showering at night, medication reminders, or a few weeks support after an illness, they are here to give you the care and confidence you need to be your best you. We call this ‘living with assistance’, not assisted living!  We believe you should never be a “level of care.” We want you to thrive independently, knowing help is just a call away. Here, it is not the quantity of care that’s measured…it’s the quality of life! RESPITE STAYS: Offering the perfect transition from hospital or rehab to home, respite stays include all resident services and access to the care and support needed to return confidently home. Join our family, if just for a “visit,” and let the healing continue!",
+    "imageURL": "/Family.jpg"
+  },  
   {
     "id": 2,
-    "title": "card",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc suscipit ut dolor non ultrices. Fusce lacus magna, efficitur non imperdiet vel, accumsan sit amet quam. Fusce tincidunt metus purus, ac mollis odio bibendum a. Phasellus lacinia venenatis dolor, vel aliquet eros lacinia sed. Cras tortor ipsum, condimentum eu purus quis, feugiat porttitor dui. Duis id pulvinar diam. Donec vel velit at massa iaculis iaculis sit amet ac nibh. Sed ac augue mollis, ultrices tellus ut, porta lectus. Nulla ac feugiat libero. Nullam accumsan eu libero eu consectetur. Aliquam erat volutpat. Cras eget ipsum enim. Maecenas aliquet nisi at arcu iaculis, id hendrerit dui viverra."
+    "title": "Lifestyle",
+    "description": "Now, more than ever senior living really matters… In the middle of uncertainty, it’s essential to have experienced leadership to maintain calm and provide comfort. Our communities implemented early safeguards to ensure our healthy environment remained that way, and our exceptional staff and management have done the impossible: to date our family of communities remain entirely Covid free. More importantly, our family of residents remained socially connected to one another, enjoyed laughter, activities, and home cooked meals ~ all without interruption. We limited access but did not discourage living. It was important to us our seniors enjoyed life without the upset so many of us had to endure. Senior living, done well, provides seniors the lifestyle they’ve earned and the confidence they deserve. Warm hospitality, delicious home cooking, activities and events, exercise programs, fresh air outings, and concierge services are just the beginning. Life really gets started when carefree days begin and security, safety, and good health surround you. Our full-time management, 24-hour staffing, and Wellness partners are all in place to seamlessly deliver on our commitment to your loved ones. Life in style ~ count on us.",
+    "imageURL": "/Lifestyle.jpg"
   },
   {
     "id": 3,
-    "title": "card",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc suscipit ut dolor non ultrices. Fusce lacus magna, efficitur non imperdiet vel, accumsan sit amet quam. Fusce tincidunt metus purus, ac mollis odio bibendum a. Phasellus lacinia venenatis dolor, vel aliquet eros lacinia sed. Cras tortor ipsum, condimentum eu purus quis, feugiat porttitor dui. Duis id pulvinar diam. Donec vel velit at massa iaculis iaculis sit amet ac nibh. Sed ac augue mollis, ultrices tellus ut, porta lectus. Nulla ac feugiat libero. Nullam accumsan eu libero eu consectetur. Aliquam erat volutpat. Cras eget ipsum enim. Maecenas aliquet nisi at arcu iaculis, id hendrerit dui viverra."
+    "title": "Naperville Community",
+    "description": "Independence Village and seniors are a match made in heaven! After 35 years of meeting their needs, exceeding their expectations, and becoming, arguably, the most trusted name in senior living, we think there is much to celebrate. Fresh interiors, bright, inspiring colors, and modern updates are some of the changes taking place, but what won’t be changing is our family’s commitment to you and your family – that’s carved in stone.  LOCATION, LOCATION Ideally located within a city vibrant with attractions and activities, Independence Village of Naperville sits right in the heart of the best of Naperville. Just a stone’s throw from historic Naper Settlement, the scenic Riverwalk, and a downtown boasting the best names in shopping and dining, Independence Village of Naperville enjoys all the beauty and convenience you might expect from a city both Money magazine and Fortune Small Business consistently rate as one of America’s best places to live and retire. Come see what all the talk is about – you will not be disappointed. Independence Village ~ is more than a place to live – it’s a place to call home!",
+    "imageURL": "/naperville.jpg"
   },
   {
     "id": 4,
-    "title": "card",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc suscipit ut dolor non ultrices. Fusce lacus magna, efficitur non imperdiet vel, accumsan sit amet quam. Fusce tincidunt metus purus, ac mollis odio bibendum a. Phasellus lacinia venenatis dolor, vel aliquet eros lacinia sed. Cras tortor ipsum, condimentum eu purus quis, feugiat porttitor dui. Duis id pulvinar diam. Donec vel velit at massa iaculis iaculis sit amet ac nibh. Sed ac augue mollis, ultrices tellus ut, porta lectus. Nulla ac feugiat libero. Nullam accumsan eu libero eu consectetur. Aliquam erat volutpat. Cras eget ipsum enim. Maecenas aliquet nisi at arcu iaculis, id hendrerit dui viverra."
+    "title": "Rockford Community",
+    "description": "Independence Village and seniors are a match made in heaven! After 35 years of meeting their needs, exceeding their expectations, and becoming, arguably, the most trusted name in senior living, we think there is much to celebrate. Fresh interiors, bright, inspiring colors, and modern updates are some of the changes taking place, but what won’t be changing is our family’s commitment to you and your family – that’s carved in stone. LOCATION, LOCATION… In an area steeped in history, arts, and natural beauty, our residents and their visitors find much to do and explore in the Rockford area. Scenic botanical gardens, historical homes, seasonal farmers markets, and a renowned art and theater scene are just some of the area’s attractions. The Starlight Theater, with its open sky stage and the Rockford Symphony Orchestra are not to be missed. Our Rockford community is nestled in a lovely neighborhood setting, nearby the area’s best medical facilities, and convenient to shopping, restaurants, and the best local events. Our weekly outings and shopping trips make sure our residents can take it all in. Independence Village ~ is more than a place to live – it’s a place to call home!",
+    "imageURL": "/rockford.jpg"
   },
   {
     "id": 5,
-    "title": "card",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc suscipit ut dolor non ultrices. Fusce lacus magna, efficitur non imperdiet vel, accumsan sit amet quam. Fusce tincidunt metus purus, ac mollis odio bibendum a. Phasellus lacinia venenatis dolor, vel aliquet eros lacinia sed. Cras tortor ipsum, condimentum eu purus quis, feugiat porttitor dui. Duis id pulvinar diam. Donec vel velit at massa iaculis iaculis sit amet ac nibh. Sed ac augue mollis, ultrices tellus ut, porta lectus. Nulla ac feugiat libero. Nullam accumsan eu libero eu consectetur. Aliquam erat volutpat. Cras eget ipsum enim. Maecenas aliquet nisi at arcu iaculis, id hendrerit dui viverra."
-  },
-  {
-    "id": 6,
-    "title": "card",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc suscipit ut dolor non ultrices. Fusce lacus magna, efficitur non imperdiet vel, accumsan sit amet quam. Fusce tincidunt metus purus, ac mollis odio bibendum a. Phasellus lacinia venenatis dolor, vel aliquet eros lacinia sed. Cras tortor ipsum, condimentum eu purus quis, feugiat porttitor dui. Duis id pulvinar diam. Donec vel velit at massa iaculis iaculis sit amet ac nibh. Sed ac augue mollis, ultrices tellus ut, porta lectus. Nulla ac feugiat libero. Nullam accumsan eu libero eu consectetur. Aliquam erat volutpat. Cras eget ipsum enim. Maecenas aliquet nisi at arcu iaculis, id hendrerit dui viverra."
-  },
-  {
-    "id": 7,
-    "title": "card",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc suscipit ut dolor non ultrices. Fusce lacus magna, efficitur non imperdiet vel, accumsan sit amet quam. Fusce tincidunt metus purus, ac mollis odio bibendum a. Phasellus lacinia venenatis dolor, vel aliquet eros lacinia sed. Cras tortor ipsum, condimentum eu purus quis, feugiat porttitor dui. Duis id pulvinar diam. Donec vel velit at massa iaculis iaculis sit amet ac nibh. Sed ac augue mollis, ultrices tellus ut, porta lectus. Nulla ac feugiat libero. Nullam accumsan eu libero eu consectetur. Aliquam erat volutpat. Cras eget ipsum enim. Maecenas aliquet nisi at arcu iaculis, id hendrerit dui viverra."
-  },
-  {
-    "id": 8,
-    "title": "card",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc suscipit ut dolor non ultrices. Fusce lacus magna, efficitur non imperdiet vel, accumsan sit amet quam. Fusce tincidunt metus purus, ac mollis odio bibendum a. Phasellus lacinia venenatis dolor, vel aliquet eros lacinia sed. Cras tortor ipsum, condimentum eu purus quis, feugiat porttitor dui. Duis id pulvinar diam. Donec vel velit at massa iaculis iaculis sit amet ac nibh. Sed ac augue mollis, ultrices tellus ut, porta lectus. Nulla ac feugiat libero. Nullam accumsan eu libero eu consectetur. Aliquam erat volutpat. Cras eget ipsum enim. Maecenas aliquet nisi at arcu iaculis, id hendrerit dui viverra."
-  },
-  {
-    "id": 9,
-    "title": "card",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc suscipit ut dolor non ultrices. Fusce lacus magna, efficitur non imperdiet vel, accumsan sit amet quam. Fusce tincidunt metus purus, ac mollis odio bibendum a. Phasellus lacinia venenatis dolor, vel aliquet eros lacinia sed. Cras tortor ipsum, condimentum eu purus quis, feugiat porttitor dui. Duis id pulvinar diam. Donec vel velit at massa iaculis iaculis sit amet ac nibh. Sed ac augue mollis, ultrices tellus ut, porta lectus. Nulla ac feugiat libero. Nullam accumsan eu libero eu consectetur. Aliquam erat volutpat. Cras eget ipsum enim. Maecenas aliquet nisi at arcu iaculis, id hendrerit dui viverra."
-  },
-  {
-    "id": 10,
-    "title": "card",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc suscipit ut dolor non ultrices. Fusce lacus magna, efficitur non imperdiet vel, accumsan sit amet quam. Fusce tincidunt metus purus, ac mollis odio bibendum a. Phasellus lacinia venenatis dolor, vel aliquet eros lacinia sed. Cras tortor ipsum, condimentum eu purus quis, feugiat porttitor dui. Duis id pulvinar diam. Donec vel velit at massa iaculis iaculis sit amet ac nibh. Sed ac augue mollis, ultrices tellus ut, porta lectus. Nulla ac feugiat libero. Nullam accumsan eu libero eu consectetur. Aliquam erat volutpat. Cras eget ipsum enim. Maecenas aliquet nisi at arcu iaculis, id hendrerit dui viverra."
-  },
-  {
-    "id": 11,
-    "title": "card",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc suscipit ut dolor non ultrices. Fusce lacus magna, efficitur non imperdiet vel, accumsan sit amet quam. Fusce tincidunt metus purus, ac mollis odio bibendum a. Phasellus lacinia venenatis dolor, vel aliquet eros lacinia sed. Cras tortor ipsum, condimentum eu purus quis, feugiat porttitor dui. Duis id pulvinar diam. Donec vel velit at massa iaculis iaculis sit amet ac nibh. Sed ac augue mollis, ultrices tellus ut, porta lectus. Nulla ac feugiat libero. Nullam accumsan eu libero eu consectetur. Aliquam erat volutpat. Cras eget ipsum enim. Maecenas aliquet nisi at arcu iaculis, id hendrerit dui viverra."
-  },
-  {
-    "id": 12,
-    "title": "card",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc suscipit ut dolor non ultrices. Fusce lacus magna, efficitur non imperdiet vel, accumsan sit amet quam. Fusce tincidunt metus purus, ac mollis odio bibendum a. Phasellus lacinia venenatis dolor, vel aliquet eros lacinia sed. Cras tortor ipsum, condimentum eu purus quis, feugiat porttitor dui. Duis id pulvinar diam. Donec vel velit at massa iaculis iaculis sit amet ac nibh. Sed ac augue mollis, ultrices tellus ut, porta lectus. Nulla ac feugiat libero. Nullam accumsan eu libero eu consectetur. Aliquam erat volutpat. Cras eget ipsum enim. Maecenas aliquet nisi at arcu iaculis, id hendrerit dui viverra."
-  },
-  {
-    "id": 13,
-    "title": "card",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc suscipit ut dolor non ultrices. Fusce lacus magna, efficitur non imperdiet vel, accumsan sit amet quam. Fusce tincidunt metus purus, ac mollis odio bibendum a. Phasellus lacinia venenatis dolor, vel aliquet eros lacinia sed. Cras tortor ipsum, condimentum eu purus quis, feugiat porttitor dui. Duis id pulvinar diam. Donec vel velit at massa iaculis iaculis sit amet ac nibh. Sed ac augue mollis, ultrices tellus ut, porta lectus. Nulla ac feugiat libero. Nullam accumsan eu libero eu consectetur. Aliquam erat volutpat. Cras eget ipsum enim. Maecenas aliquet nisi at arcu iaculis, id hendrerit dui viverra."
-  },
-  {
-    "id": 14,
-    "title": "card",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc suscipit ut dolor non ultrices. Fusce lacus magna, efficitur non imperdiet vel, accumsan sit amet quam. Fusce tincidunt metus purus, ac mollis odio bibendum a. Phasellus lacinia venenatis dolor, vel aliquet eros lacinia sed. Cras tortor ipsum, condimentum eu purus quis, feugiat porttitor dui. Duis id pulvinar diam. Donec vel velit at massa iaculis iaculis sit amet ac nibh. Sed ac augue mollis, ultrices tellus ut, porta lectus. Nulla ac feugiat libero. Nullam accumsan eu libero eu consectetur. Aliquam erat volutpat. Cras eget ipsum enim. Maecenas aliquet nisi at arcu iaculis, id hendrerit dui viverra."
-  },
-  {
-    "id": 15,
-    "title": "card",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc suscipit ut dolor non ultrices. Fusce lacus magna, efficitur non imperdiet vel, accumsan sit amet quam. Fusce tincidunt metus purus, ac mollis odio bibendum a. Phasellus lacinia venenatis dolor, vel aliquet eros lacinia sed. Cras tortor ipsum, condimentum eu purus quis, feugiat porttitor dui. Duis id pulvinar diam. Donec vel velit at massa iaculis iaculis sit amet ac nibh. Sed ac augue mollis, ultrices tellus ut, porta lectus. Nulla ac feugiat libero. Nullam accumsan eu libero eu consectetur. Aliquam erat volutpat. Cras eget ipsum enim. Maecenas aliquet nisi at arcu iaculis, id hendrerit dui viverra."
-  },
-  {
-    "id": 16,
-    "title": "card",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc suscipit ut dolor non ultrices. Fusce lacus magna, efficitur non imperdiet vel, accumsan sit amet quam. Fusce tincidunt metus purus, ac mollis odio bibendum a. Phasellus lacinia venenatis dolor, vel aliquet eros lacinia sed. Cras tortor ipsum, condimentum eu purus quis, feugiat porttitor dui. Duis id pulvinar diam. Donec vel velit at massa iaculis iaculis sit amet ac nibh. Sed ac augue mollis, ultrices tellus ut, porta lectus. Nulla ac feugiat libero. Nullam accumsan eu libero eu consectetur. Aliquam erat volutpat. Cras eget ipsum enim. Maecenas aliquet nisi at arcu iaculis, id hendrerit dui viverra."
-  },
-  {
-    "id": 17,
-    "title": "card",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc suscipit ut dolor non ultrices. Fusce lacus magna, efficitur non imperdiet vel, accumsan sit amet quam. Fusce tincidunt metus purus, ac mollis odio bibendum a. Phasellus lacinia venenatis dolor, vel aliquet eros lacinia sed. Cras tortor ipsum, condimentum eu purus quis, feugiat porttitor dui. Duis id pulvinar diam. Donec vel velit at massa iaculis iaculis sit amet ac nibh. Sed ac augue mollis, ultrices tellus ut, porta lectus. Nulla ac feugiat libero. Nullam accumsan eu libero eu consectetur. Aliquam erat volutpat. Cras eget ipsum enim. Maecenas aliquet nisi at arcu iaculis, id hendrerit dui viverra."
+    "title": "Veterans",
+    "description": "Veteran’s Aid and Attendance Program This Veteran’s program provides monetary benefits to veterans and their surviving spouses to help cover the costs of age-related care and services. Qualifying care services might include dressing, bathing, cooking, transportation, medication management, and other activities of daily living.  We work closely with VA personnel who can help qualified seniors navigate the application process. Please note: Veterans never have to pay to access or receive this benefit. Information about the program is free and assistance with the application is available, at no charge, directly from the VA.  Call us today to find out more: (815) 282-9696",
+    "imageURL": "/veterans.jpg"
   }
 ]

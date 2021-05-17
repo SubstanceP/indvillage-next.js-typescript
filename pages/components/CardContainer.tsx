@@ -16,7 +16,7 @@ export default class CardContainer extends React.Component {
                 </div>  
                 <div className="container">
                     <div className="row">
-                        {cardContents.map((content) => <Card key={content.id} cardContent={content}/>)}
+                        {cardContents.map((content) => <Card key={content.id} cardContent={content} />)}
                     </div>
                 </div>
             </React.Fragment>
