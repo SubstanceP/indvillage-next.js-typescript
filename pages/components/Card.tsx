@@ -12,6 +12,7 @@ interface cardContent {
   title: string
   description: string
   imageURL: string
+  excerpt: string
 }
 
 interface CardProps {
@@ -42,13 +43,13 @@ const Card = (props: CardProps, state: CardState) => {
   const img = (images as any)[props.cardContent.imageURL]
 
   return (
-    <div className="col s4" id={cardContent.id.toString()}>
-      <div className="card" id="test">
+    <div className="col s4" id={"post" + cardContent.id.toString()}>
+      <div className="card">
         <div className="card-image" onClick={openModal}>
-          <img alt={''} src={img} />
+        <img className="cardImage" alt={''} src={img} />
         </div>
         <div className="card-title">{cardContent.title}</div>
-        <div className="card-content" dangerouslySetInnerHTML={{__html: ''}}></div>
+        <div className="card-excerpt">{cardContent.excerpt}</div>
         <div className="card-action">
           <Button className="card-button" variant="outlined" onClick={openModal}>
             {'more'}
@@ -56,8 +57,8 @@ const Card = (props: CardProps, state: CardState) => {
           <Dialog onClose={closeModal} maxWidth={'lg'} open={modalOpen}>
             <DialogTitle>{cardContent.title}</DialogTitle>
             <DialogContent dividers>
-              <img alt={''} src={img} />
-              <Typography variant="h6">{cardContent.description}</Typography>
+              <img className="modalImage" alt={''} src={img} />
+              <Typography variant="h6" className="cardDescription">{cardContent.description}</Typography>
             </DialogContent>
             <DialogActions>
               <Button autoFocus onClick={closeModal} color="primary">

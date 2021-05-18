@@ -3,8 +3,7 @@ html
 body {
   padding: 0;
   margin: 0;
-  font-family: time, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: Helvetica;
     font-size: 16px;
 }
 
@@ -51,8 +50,7 @@ a {
 
 .mission {
   line-height: 1.66em;
-  font-family: time;
-  font-size: 1em;
+    font-size: 1em;
 }
 
 .iv-nav {
@@ -75,7 +73,6 @@ a {
   max-height: 184px;
   margin-left: auto;
   font-size: 1rem;
-  font-family: time;
 }
 
 .card-button {
@@ -97,18 +94,21 @@ a {
   padding-bottom: 4rem !important;
 }**/
 #form-label {
-  font-family: time;
+
   font-size: 1.66em;
   color: #875bbf;
 }
 #form-text {
-  font-family: time;
   font-size: 1em;
 }
 
 .contact-form {
-  font-family: time;
   font-size: 1em;
+  line-height:1.66;
+}
+
+.MuiFormLabel-root {
+  line-height:1.66;
 }
 
 .container {
@@ -121,12 +121,29 @@ a {
   margin-top: 20px;
 }
 
+.modalImage {
+  width: 66%;
+  float: left;
+  padding-right: 20px;
+}
+
+.cardDescription {
+}
+
+.card-excerpt {
+  font-family: helvetica;
+}
+
+a {
+  color: #3a54a0 !important;
+}
+
 @media (max-width : 1200px) {
 
 /* Styles */
 
     #post0, #post1, #post2, #post3, #post4, #post5 {
-
+    
     flex-basis: 50%;
 
     }
@@ -136,10 +153,12 @@ a {
 
 /* Styles */
 
-    #post0, #post1, #post2, #post3, #post4, #post5 {
+    #post0, #post1, #post2, #post3, #post4, #post5, #post6 {
 
     flex-basis: 100%;
-
-
+  }
+    
+    .modalImage {
+      width: 100%;
     }
   }  
