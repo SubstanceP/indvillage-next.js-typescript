@@ -7,12 +7,12 @@ export default class HeaderContent extends React.Component {
                 <div id="header">
                     <div className="row">
                         <div className="col s12" style={{"height":"35em"}}>
-                            <h3 className="slogan">
+                            <h1 className="slogan">
                                         Experience<br />
                                         Knowledge<br />
                                         Commitment<br />
                                         Compassion
-                            </h3>
+                            </h1>
                                 {/*<p class="p-heading p-large">Our family of communities remain entirely Covid free</p>
                                 <a className="btn-solid-lg page-scroll" href="#contact">Contact Us</a>-->*/} 
                         </div> {/* end of col */}
