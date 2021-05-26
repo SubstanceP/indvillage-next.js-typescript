@@ -78,14 +78,14 @@ export default class ContactForm extends Component<ContactFormProps, ContactForm
 
     render() {
         return(
-        <div className="container contact-form">
+        <div id="contact" className="container contact-form">
             <div className="row">
                 <form className="col s12" autoComplete="off" onSubmit={this.handleSubmit}>
                     <FormLabel id="form-label">Contact Us</FormLabel>
                     <FormHelperText id="form-text">We’d love to hear from you. Please call, email or send us a message using the form below.</FormHelperText>
-                    <br />
+      
                     <FormControl component="fieldset" id="napervilleLocation" className="location">
-                        <FormLabel>Naperville, Illinois</FormLabel>
+                        <FormLabel id="locationLabel">Naperville, Illinois</FormLabel>
                         <div style={{
                                 display: 'flex',
                                 alignItems: 'center',
@@ -105,7 +105,7 @@ export default class ContactForm extends Component<ContactFormProps, ContactForm
                     </FormControl>
                     <br />
                     <FormControl component="fieldset" id="rockfordLocation" className="location">
-                        <FormLabel>Rockford, Illinois</FormLabel>
+                        <FormLabel id="locationLabel">Rockford, Illinois</FormLabel>
                         <div style={{
                                 display: 'flex',
                                 alignItems: 'center',
@@ -181,7 +181,7 @@ export default class ContactForm extends Component<ContactFormProps, ContactForm
                         multiline
                         rows={4}
                     />
-                    <Button type="submit" >Submit</Button>
+                    <Button type="submit" component="a" href="mailto:petebuds@gmail.com">Submit</Button>
                 </form>
             </div>
         </div>

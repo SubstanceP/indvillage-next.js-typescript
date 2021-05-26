@@ -11,8 +11,8 @@ export default class NavBar extends React.Component {
                 <img className="logo" alt={''} src={logo} />
               </a>
               <ul id="nav-mobile" className="right">
-                <li><a className="nav-item" href="sass.html">Services</a></li>
-                <li><a className="nav-item" href="collapsible.html">Contact</a></li>
+                <li><a className="nav-item" href="#services">Services</a></li>
+                <li><a className="nav-item" href="#contact">Contact</a></li>
                 {/**add social media Icons**/}
               </ul>
             </div>

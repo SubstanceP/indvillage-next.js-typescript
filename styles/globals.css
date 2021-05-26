@@ -8,7 +8,7 @@ body {
 }
 
 .logo {
-  box-shadow: 10px 10px 5px 1px rgba(0, 0, 255, .1);
+  /*box-shadow: 10px 10px 5px 1px rgba(0, 0, 255, .1);*/
   max-height: 64px;
 }
 
@@ -54,7 +54,7 @@ a {
 }
 
 .iv-nav {
-  background-color: whitesmoke;
+  background-color: white;
 }
 
 .nav-item {
@@ -88,7 +88,13 @@ a {
   color: #3a54a0;
   padding-left: 1.66rem;
   padding-top: .66rem;
-  margin-bottom: -.66rem;}
+  margin-bottom: -.66rem;
+  cursor: pointer;
+}
+
+.card-title:hover {
+  cursor: pointer;
+}
 
 /**#post2 div:nth-child(2), #post3 div:nth-child(2), #post5 div:nth-child(2){
   padding-bottom: 4rem !important;
@@ -107,7 +113,24 @@ a {
   line-height:1.66;
 }
 
-.MuiFormLabel-root {
+.MuiFormControl-root {
+  padding: 12px 12px 12px 0px !important;
+}
+
+.MuiFormHelperText-root {
+  margin-top:1.66px !important;
+  margin-bottom:3px !important;
+}
+
+
+#locationLabel {
+  font-weight: bold;
+  margin-bottom: .33rem;
+  margin-top: .33rem;
+
+}
+
+#napervilleLocation {
   line-height:1.66;
 }
 

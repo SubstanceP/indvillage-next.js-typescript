@@ -44,11 +44,11 @@ const Card = (props: CardProps, state: CardState) => {
 
   return (
     <div className="col s4" id={"post" + cardContent.id.toString()}>
-      <div className="card">
+      <div id="services" className="card">
         <div className="card-image" onClick={openModal}>
         <img className="cardImage" alt={''} src={img} />
         </div>
-        <div className="card-title">{cardContent.title}</div>
+        <div className="card-title" onClick={openModal}>{cardContent.title}</div>
         <div className="card-excerpt">{cardContent.excerpt}</div>
         <div className="card-action">
           <Button className="card-button" variant="outlined" onClick={openModal}>
