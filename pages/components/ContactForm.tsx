@@ -85,7 +85,7 @@ export default class ContactForm extends Component<ContactFormProps, ContactForm
                     <FormHelperText id="form-text">We’d love to hear from you. Please call, email or send us a message using the form below.</FormHelperText>
       
                     <FormControl component="fieldset" id="napervilleLocation" className="location">
-                        <FormLabel id="locationLabel">Naperville, Illinois</FormLabel>
+                        <FormLabel>Naperville, Illinois</FormLabel>
                         <div style={{
                                 display: 'flex',
                                 alignItems: 'center',
@@ -105,7 +105,7 @@ export default class ContactForm extends Component<ContactFormProps, ContactForm
                     </FormControl>
                     <br />
                     <FormControl component="fieldset" id="rockfordLocation" className="location">
-                        <FormLabel id="locationLabel">Rockford, Illinois</FormLabel>
+                        <FormLabel>Rockford, Illinois</FormLabel>
                         <div style={{
                                 display: 'flex',
                                 alignItems: 'center',
@@ -179,9 +179,9 @@ export default class ContactForm extends Component<ContactFormProps, ContactForm
                         placeholder="Question or Comment"
                         onChange={this.handleChangeMessage}
                         multiline
-                        rows={4}
+                        rows={1}
                     />
-                    <Button type="submit" component="a" href="mailto:petebuds@gmail.com">Submit</Button>
+                    <Button className="form-button" variant="outlined" type="submit" onClick={()=>{ alert('Thank you for your email!'); }}>Submit</Button>
                 </form>
             </div>
         </div>

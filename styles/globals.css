@@ -153,6 +153,11 @@ a {
 .cardDescription {
 }
 
+.card-button {
+  color:#3a54a0 !important;
+  border-color: #3a54a0 !important;
+}
+
 .card-excerpt {
   font-family: helvetica;
   padding: 25px;
@@ -160,6 +165,13 @@ a {
 
 a {
   color: #3a54a0 !important;
+}
+
+#form-label {
+  color: #3a54a0;
+}
+.form-button {
+  margin-top: 7px !important;
 }
 
 @media (max-width : 1200px) {
