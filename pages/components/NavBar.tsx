@@ -15,7 +15,7 @@ export default class NavBar extends React.Component {
                 {/**<a href=''><img className="sm1" alt={''} src={sm1} /></a>
         <a><img className="sm2" alt={''} src={sm2} /></a>**/}
               <ul id="nav-mobile" className="right">
-                <li className="dropmenu"><a className="nav-item">Social</a>
+                <li className="dropmenu"><a className="nav-item">Social Media</a>
       <ul className="dropdown">
         <li><a href="https://www.instagram.com/indvillagerockford/" target="blank">Rockford Instagram</a></li>
         <li><a href="https://www.instagram.com/indvillagenaperville/" target="blank">Naperville Instagram</a></li>
