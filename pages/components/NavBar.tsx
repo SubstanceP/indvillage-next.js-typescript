@@ -16,10 +16,12 @@ export default class NavBar extends React.Component {
         <a><img className="sm2" alt={''} src={sm2} /></a>**/}
               <ul id="nav-mobile" className="right">
                 <li className="dropmenu"><a className="nav-item">Social Media</a>
-      <ul className="dropdown">
+                <ul className="dropdown">
         <li><a href="https://www.instagram.com/indvillagerockford/" target="blank">Rockford Instagram</a></li>
         <li><a href="https://www.instagram.com/indvillagenaperville/" target="blank">Naperville Instagram</a></li>
-        <li><a href="https://www.facebook.com/indvillage" target="blank">Facebook</a></li>
+        <li><a href="https://www.facebook.com/indvillage" target="blank">Naperville Facebook</a></li>
+        <li><a href="https://www.facebook.com/indvillagerockford" target="blank">Rockford Facebook</a></li>
+
       </ul> 
       </li>
        <li><a className="nav-item" href="#services">Services</a></li>

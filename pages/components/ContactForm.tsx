@@ -12,6 +12,7 @@ interface ContactFormState {
     email: string, 
     message: string,
     phone: string,
+    community: string,
     requestType: string,
     status: string
 }
@@ -25,6 +26,7 @@ export default class ContactForm extends Component<ContactFormProps, ContactForm
             name: "",
             email: "",
             phone: '',
+            community: '',
             message: "",
             requestType: '',
             status: "Submit"
@@ -34,6 +36,7 @@ export default class ContactForm extends Component<ContactFormProps, ContactForm
         this.handleChangeEmail = this.handleChangeEmail.bind(this);
         this.handleChangePhone = this.handleChangePhone.bind(this);
         this.handleChangeMessage = this.handleChangeMessage.bind(this);
+        this.handleChangeCommunity = this.handleChangeCommunity.bind(this);
         this.handleChangeRequestType = this.handleChangeRequestType.bind(this);
         this.handleSubmit = this.handleSubmit.bind(this);
     }
@@ -56,6 +59,12 @@ export default class ContactForm extends Component<ContactFormProps, ContactForm
             phone: e.target.value
         })
     };
+    handleChangeCommunity(e) {
+        this.setState({
+            ...this.state,
+            community: e.target.value
+        })
+    }
     handleChangeMessage(e) {
         this.setState({
             ...this.state,
@@ -162,6 +171,17 @@ export default class ContactForm extends Component<ContactFormProps, ContactForm
                         }}
                     />
                     <br />
+                    <FormControl>
+                        <Select
+                            label="Community Selection"
+                            onChange={this.handleChangeRequestType}
+                            defaultValue="Naperville"
+                            id="community"
+                            >
+                            <MenuItem value={"Naperville"}>Naperville Community</MenuItem>
+                            <MenuItem value={"Rockford"}>Rockford Community</MenuItem>
+                        </Select>
+                    </FormControl>
                     <FormControl>
                         <Select
                             label="How can we assist you?"
