@@ -146,15 +146,18 @@ a {
 #form-label {
 
   font-size: 1.66em;
-  color: #3a54a0 ;
+  color: #3a54a0;
+  font-family: "Californian FB";
 }
 #form-text {
   font-size: 1em;
+  font-family: "Californian FB";
 }
 
 .contact-form {
   font-size: 1em;
   line-height:1.66;
+  font-family: "Californian FB";
 }
 
 .MuiFormControl-root {
@@ -186,6 +189,10 @@ a {
   display: flex;
   justify-content: flex-end;
   margin-top: 20px;
+}
+
+.MuiFormLabel-root {
+  font-family: "Californian FB" !important;
 }
 
 .modalImage {
