@@ -3,11 +3,13 @@ import "../styles/globals.css";
 import "../styles/materialize.css"
 import Link from 'next/link'
 
+
 // Components
 import NavBar from './components/NavBar';
 import HeaderContent from './components/HeaderContent';
 import CardContainer from './components/CardContainer';
 import ContactForm from './components/ContactForm';
+import FooterBar from './components/FooterBar';
 import SimpleGallery from './components/SimpleGallery';
 
 export default class App extends React.Component {
@@ -21,6 +23,7 @@ export default class App extends React.Component {
                     <CardContainer />
                 <footer>
                     <ContactForm />
+                    <FooterBar />
                 </footer>
             </React.Fragment>
         )

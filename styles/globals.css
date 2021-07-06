@@ -3,7 +3,7 @@ html
 body {
   padding: 0;
   margin: 0;
-  font-family: Helvetica;
+  font-family: "Californian FB";
     font-size: 16px;
 }
 
@@ -11,6 +11,15 @@ body {
   /*box-shadow: 10px 10px 5px 1px rgba(0, 0, 255, .1);*/
   max-height: 64px;
   margin-left: 60px;
+  padding: 3.33px 0px 3.33px 0px;
+}
+
+.MuiBottomNavigation-root {
+  justify-content: right !important;
+}
+
+.MuiBottomNavigationAction-root {
+  color: #3a54a0 !important;
 }
 
 a {
@@ -43,7 +52,7 @@ a {
   text-align: center;
   margin-top: 1.66rem;
   color: white;
-  font-family: time;
+  font-family: "Californian FB";
   line-height: 4.66rem;
 }
 
@@ -194,7 +203,7 @@ a {
 }
 
 .card-excerpt {
-  font-family: helvetica;
+  font-family: "Californian FB";
   padding: 25px;
 }
 

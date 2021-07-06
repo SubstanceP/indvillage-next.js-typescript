@@ -1,6 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
-const logo = require('../../images/logo.jpg')
+const logo = require('../../images/IV_LOGO_COLOR_HI-RES.jpg')
 const sm1 = require('../../images/fb2x.png')
 const sm2 = require('../../images/insta2x.png')
 
